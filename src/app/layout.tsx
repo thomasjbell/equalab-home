@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Lexend } from "next/font/google";
+
+
 
 export const metadata: Metadata = {
   title: "EquaLab Home",
