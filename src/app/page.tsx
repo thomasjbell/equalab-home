@@ -14,7 +14,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-4xl font-bold text-cyan-900 mb-2">EquaLab</h1>
-        <p className="text-cyan-600 text-xl mb-8">
+        <p className="text-cyan-950 text-xl mb-8">
           Comprehensive tools for scientists and engineers
         </p>
       </div>
