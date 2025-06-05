@@ -1,6 +1,4 @@
 import LittleLogo from "./components/ui/LittleLogo";
-import LittleEquations from "./components/ui/LittleEquations";
-import LittleMaterials from "./components/ui/LittleMaterials";
 import { RiHexagonLine } from "react-icons/ri";
 import { FaEquals } from "react-icons/fa6";
 
