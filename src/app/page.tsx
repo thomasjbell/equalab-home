@@ -1,7 +1,6 @@
 import LittleLogo from "./components/ui/LittleLogo";
-import { RiHexagonLine } from "react-icons/ri";
-import { FaEquals } from "react-icons/fa6";
-
+import LittleMaterials from "./components/ui/LittleMaterials";
+import LittleEquations from "./components/ui/LittleEquations";
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
           className="bg-cyan-800 dark:bg-cyan-900 rounded-xl shadow-lg hover:shadow-xl transition-all p-8 text-center group"
         >
           <div className="mb-4 w-16 h-16 bg-cyan-600 dark:bg-cyan-700 bg-opacity-10 rounded-full flex items-center justify-center mx-auto group-hover:bg-opacity-20 transition-all">
-            <RiHexagonLine className="w-10 h-10 text-cyan-50" />
+            <LittleMaterials className="w-12 h-12" />
           </div>
           <h2 className="text-2xl font-bold text-cyan-50 mb-2">Materials</h2>
           <p className="text-cyan-100 mb-4">
@@ -40,7 +39,7 @@ export default function Home() {
           className="bg-cyan-300 dark:bg-cyan-600 rounded-xl shadow-lg hover:shadow-xl transition-all p-8 text-center group"
         >
           <div className="mb-4 w-16 h-16 bg-cyan-100 dark:bg-cyan-300 bg-opacity-10 rounded-full flex items-center justify-center mx-auto group-hover:bg-opacity-20 transition-all">
-            <FaEquals className="w-9 h-9 text-cyan-900" />
+            <LittleEquations className="w-12 h-12" />
           </div>
           <h2 className="text-2xl font-bold text-cyan-900 dark:text-cyan-50 mb-2">Equations</h2>
           <p className="text-cyan-800 dark:text-cyan-50 mb-4 font-medium">

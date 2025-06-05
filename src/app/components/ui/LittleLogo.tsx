@@ -28,13 +28,13 @@ const LittleLogo: React.FC<LittleLogoProps> = ({ className, ...rest }) => {
         </style>
       </defs>
       <g id="Layer_1" data-name="Layer 1">
-        <rect className="cls-2" width="1024" height="1024" rx="160" ry="160"/>
+        <rect className="dark:fill-cyan-50 fill-cyan-950" width="1024" height="1024" rx="160" ry="160"/>
       </g>
       <g id="Layer_2" data-name="Layer 2">
-        <rect className="cls-1" x="192" y="192" width="640" height="640" rx="32" ry="32"/>
+        <rect className="dark:fill-cyan-950 fill-cyan-50" x="192" y="192" width="640" height="640" rx="32" ry="32"/>
       </g>
       <g id="Layer_3" data-name="Layer 3">
-        <rect className="cls-2" x="320" y="320" width="384" height="384" rx="32" ry="32"/>
+        <rect className="dark:fill-cyan-50 fill-cyan-950" x="320" y="320" width="384" height="384" rx="32" ry="32"/>
       </g>
     </svg>
   );
