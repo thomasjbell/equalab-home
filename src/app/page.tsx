@@ -1,17 +1,16 @@
-import Image from "next/image";
+import LittleLogo from "./components/ui/LittleLogo";
+import LittleEquations from "./components/ui/LittleEquations";
+import LittleMaterials from "./components/ui/LittleMaterials";
+import { RiHexagonLine } from "react-icons/ri";
+import { FaEquals } from "react-icons/fa6";
+
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-slate-50 dark:bg-gradient-to-br dark:from-cyan-950 dark:to-slate-950 flex flex-col items-center justify-center px-4 py-12">
       <div className="text-center mb-12">
         <div className="flex justify-center items-center mb-4">
-          <Image
-            className="drop-shadow rounded-sm"
-            src="/logo.png"
-            alt="EquaLab Logo"
-            width={64}
-            height={64}
-          />
+          <LittleLogo className="w-16 h-16" />
         </div>
         <h1 className="text-4xl font-bold text-cyan-900 dark:text-cyan-50 mb-2">EquaLab</h1>
         <p className="text-cyan-950 dark:text-cyan-100 text-xl mb-8 font-medium">
@@ -26,23 +25,7 @@ export default function Home() {
           className="bg-cyan-800 dark:bg-cyan-900 rounded-xl shadow-lg hover:shadow-xl transition-all p-8 text-center group"
         >
           <div className="mb-4 w-16 h-16 bg-cyan-600 dark:bg-cyan-700 bg-opacity-10 rounded-full flex items-center justify-center mx-auto group-hover:bg-opacity-20 transition-all">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#ecfeff"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-accent"
-            >
-              <path d="M21 9V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3" />
-              <path d="M3 16v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3" />
-              <path d="M8 12h8" />
-              <path d="M12 16V8" />
-            </svg>
+            <RiHexagonLine className="w-10 h-10 text-cyan-50" />
           </div>
           <h2 className="text-2xl font-bold text-cyan-50 mb-2">Materials</h2>
           <p className="text-cyan-100 mb-4">
@@ -59,23 +42,7 @@ export default function Home() {
           className="bg-cyan-300 dark:bg-cyan-600 rounded-xl shadow-lg hover:shadow-xl transition-all p-8 text-center group"
         >
           <div className="mb-4 w-16 h-16 bg-cyan-100 dark:bg-cyan-300 bg-opacity-10 rounded-full flex items-center justify-center mx-auto group-hover:bg-opacity-20 transition-all">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#164e63"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-accent"
-            >
-              <path d="M21 9V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3" />
-              <path d="M3 16v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3" />
-              <path d="M8 12h8" />
-              <path d="M12 16V8" />
-            </svg>
+            <FaEquals className="w-9 h-9 text-cyan-900" />
           </div>
           <h2 className="text-2xl font-bold text-cyan-900 dark:text-cyan-50 mb-2">Equations</h2>
           <p className="text-cyan-800 dark:text-cyan-50 mb-4 font-medium">
