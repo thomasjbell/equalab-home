@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-white/50 dark:bg-gray-800/50 rounded-full backdrop-blur-sm">
                 <CalculatorIcon className="w-4 h-4" />
-                <span>Symbolic Math</span>
+                <span>Symbolic Maths</span>
               </div>
             </motion.div>
           </motion.div>
@@ -217,8 +217,7 @@ export default function Home() {
               More Tools Coming Soon
             </h3>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We're expanding the EquaLab toolkit with additional scientific and engineering tools. 
-              Stay tuned for data analysis, simulation tools, and more.
+              We are expanding the EquaLab toolkit with additional scientific and engineering tools. 
             </p>
           </motion.div>
 
