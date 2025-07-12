@@ -23,8 +23,8 @@ const LittleEquations: React.FC<LittleEquationsProps> = ({ className, ...rest })
       </defs>
     
       <g id="Layer_2" data-name="Layer 2">
-        <rect className="fill-cyan-900" x="192" y="229.47" width="640" height="180" rx="32" ry="32"/>
-        <rect className="fill-cyan-900" x="192" y="614.53" width="640" height="180" rx="32" ry="32"/>
+        <rect className="fill-cyan-50" x="192" y="229.47" width="640" height="180" rx="32" ry="32"/>
+        <rect className="fill-cyan-50" x="192" y="614.53" width="640" height="180" rx="32" ry="32"/>
       </g>
     </svg>
   );
