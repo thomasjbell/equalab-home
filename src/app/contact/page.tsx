@@ -20,7 +20,7 @@ export default function Contact() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Get in Touch</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+                We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

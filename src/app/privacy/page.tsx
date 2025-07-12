@@ -13,7 +13,7 @@ export default function PrivacyPage() {
             </p>
             <ul>
               <li>Email address (for account creation and authentication)</li>
-              <li>Name (optional, for personalization)</li>
+              <li>Name (optional, for personalisation)</li>
               <li>Usage data (equations viewed, preferences set)</li>
             </ul>
 
