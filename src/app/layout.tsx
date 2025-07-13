@@ -7,6 +7,17 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "EquaLab - Comprehensive Tools for Scientists and Engineers",
   description: "Access powerful scientific and engineering tools including material properties database, mathematical equation solver, and advanced calculation tools. Built for researchers, engineers, and students.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  manifest: "/manifest.json",
   keywords: [
     "scientific tools",
     "engineering calculations", 
