@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { 
   BeakerIcon, 
   CalculatorIcon, 
@@ -12,7 +12,7 @@ import LittleMaterials from "./components/ui/LittleMaterials";
 import LittleEquations from "./components/ui/LittleEquations";
 
 export default function Home() {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -23,25 +23,25 @@ export default function Home() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 300,
         damping: 30,
       },
     },
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hover: {
       y: -8,
       scale: 1.02,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 400,
         damping: 10,
       },
@@ -49,6 +49,7 @@ export default function Home() {
     tap: { scale: 0.98 },
   };
 
+  // Rest of your component code remains the same...
   return (
     <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-6 py-12">
